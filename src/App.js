@@ -68,7 +68,7 @@ class App extends Component {
                 </Row>
                 {total > 0 && (
                   <p>
-                    With a starting contribution of {starting} and a monthly contribution of {monthly} we will deduct a total of &pound;{total.toFixed(2)} in a timeframe of {totalMonths} months.</p>
+                    With a starting contribution of &pound;{starting} and a monthly contribution of &pound;{monthly} we will deduct a total of &pound;{total.toFixed(2)} in a timeframe of {totalMonths} months.</p>
                 )}
                 <Button onClick={() => this.calc()} variant="success">Calculate</Button>
               </Jumbotron>
