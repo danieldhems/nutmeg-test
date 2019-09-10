@@ -66,7 +66,7 @@ class App extends Component {
                     </Form.Group>
                   </Col>
                 </Row>
-                {this.state.total > 0 && (
+                {total > 0 && (
                   <p>
                     With a starting contribution of {starting} and a monthly contribution of {monthly} we will deduct a total of &pound;{total.toFixed(2)} in a timeframe of {totalMonths} months.</p>
                 )}
